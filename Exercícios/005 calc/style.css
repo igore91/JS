@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    font: normal 18pt arial;
+    border-radius: 5px;
+    overflow-x: hidden;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url(https://c.tenor.com/p28XuV3FnjIAAAAC/anime-loli.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.simb {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    background-color: rgba(255, 235, 205, 0.397);
+    padding: 1%;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.479);
+}
+
+input {
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: rgba(245, 222, 179, 0.808);
+    margin-top: 100px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    font-weight: bold;
+    outline: none;
+    outline-style: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(245, 222, 179, 0.925);
+}
+
+div#res {
+    margin-top: 100px;
+    display: inline-block;
+    background-color: rgba(245, 222, 179, 0.541);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(245, 222, 179, 0.541);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1267px) {
+
+    body {
+        background-repeat: repeat;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 637px) {
+    div.simb {
+        display: block;
+        position: relative;
+        top: 50px;
+        font-size: 1.5em;
+    }
+    
+    body {
+        background-position: center center;
+    }
+}
